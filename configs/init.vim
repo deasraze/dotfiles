@@ -4,25 +4,29 @@ Plug 'easymotion/vim-easymotion'
 Plug 'jiangmiao/auto-pairs'
 Plug 'itchyny/lightline.vim'
 Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
+"Plug 'rking/ag.vim', { 'on': 'Ag' }
 " Git
 Plug 'airblade/vim-gitgutter'
 Plug 'tpope/vim-fugitive'
 " Color schemes
 Plug 'morhetz/gruvbox'
+Plug 'mhartington/oceanic-next'
 
 call plug#end()
 
 " Settings
-syntax on
+syntax enable 
 set t_Co=256
+
 set number
 set expandtab
+set termguicolors
 
-colorscheme gruvbox
+colorscheme OceanicNext 
 set background=dark
 
 let g:lightline = {
-\ 'colorscheme': 'one',
+\ 'colorscheme': 'material',
 \ }
 
 set langmap=ёйцукенгшщзхъфывапролджэячсмитьбюЁЙЦУКЕHГШЩЗХЪФЫВАПРОЛДЖЭЯЧСМИТЬБЮ;`qwertyuiop[]asdfghjkl\\;'zxcvbnm\\,.~QWERTYUIOP{}ASDFGHJKL:\\"ZXCVBNM<>
