@@ -15,14 +15,14 @@ Plug 'mhartington/oceanic-next'
 call plug#end()
 
 " Settings
-syntax enable 
+syntax enable
 set t_Co=256
 
 set number
 set expandtab
 set termguicolors
 
-colorscheme OceanicNext 
+colorscheme OceanicNext
 set background=dark
 
 let g:lightline = {
