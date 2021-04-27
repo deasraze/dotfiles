@@ -101,4 +101,4 @@ export EDITOR='nvim'
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 alias vi="nvim"
-alias pacclear="sudo paccache -rk2 && rm -rf ~/.cache/thumbnails/* && sudo pacman -Rsn $(pacman -Qdtq)"
+alias pacclear='sudo paccache -rk2 && rm -rf ~/.cache/thumbnails/* && sudo pacman -Rsn $(pacman -Qdtq)'
