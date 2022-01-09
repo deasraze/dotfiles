@@ -102,3 +102,6 @@ export EDITOR='nvim'
 
 alias vi="nvim"
 alias pacclear='sudo paccache -rk2 && rm -rf ~/.cache/thumbnails/* && sudo pacman -Rsn $(pacman -Qdtq)'
+alias micon='amixer -c G6 set "PCM Capture Source" "External Mic" && amixer -c G6 set "Speaker Clock Source" "DSP Clock"'
+alias micoff="amixer -c G6 set 'Speaker Clock Source' 'Stereo Direct'"
+
